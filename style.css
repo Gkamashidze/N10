@@ -1,0 +1,287 @@
+* {
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+}
+
+body {
+    display: grid;
+    justify-content: center;
+}
+
+/* .section1 {
+    background-color: #D9D9D9;
+} */
+
+@font-face {
+    font-family: nunito;
+    src: url(./src/fonts/nunito.ttf);
+}
+
+@font-face {
+    font-family: notosans;
+    src: url(./src/fonts/notosans.ttf);
+}
+
+.navbar_container {
+    width: 1200px;
+    height: 81px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 61px;
+}
+
+.logo {
+    margin-right: 175px;
+}
+
+.navbox {
+    width: 500px;
+    height: 29px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbox li {
+    list-style-type: none;
+    display: inline;
+
+    padding: 27.5px;
+}
+
+li a {
+    text-decoration: none;
+}
+
+.login {
+    width: 262px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.login a {
+    text-decoration: none;
+}
+
+.login {
+    margin-left: 58px;
+}
+
+.login_get_started {
+    width: 173px;
+    height: 64px;
+
+    background-color: #292930;
+    border-radius: 7px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login_get_started a {
+    color: #FFFFFF;
+}
+
+.banner {
+    width: 740px;
+    height: 470px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 34px;
+
+    margin-top: 188px;
+}
+
+.banner_button {
+    display: flex;
+    justify-content: space-between;
+
+    width: 375px;
+    height: 64px;
+}
+
+.banner_button1 {
+    width: 182px;
+    height: 64px;
+
+    background: #292930;
+    border-radius: 7px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.banner_button1 a {
+    color: #FFFFFF;
+
+    text-decoration: none;
+
+    font-family: nunito;
+}
+
+.banner_button2 {
+    width: 182px;
+    height: 64px;
+
+    border-radius: 7px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border: 1.5px solid #292930;
+}
+
+.banner_button2 a {
+    color: #292930;
+    text-decoration: none;
+
+    font-family: nunito;
+}
+
+.section2 {
+    background-color: #292930;
+
+    width: 1200px;
+    height: 1233px;
+
+    margin-top: 300px;
+}
+
+.section2_heading {
+    width: 100%;
+    height: 126px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+
+
+}
+
+.section2_heading_icon {
+    margin-right: 39px;
+    /* margin-bottom: ; */
+}
+
+.section2_heading_title {}
+
+
+.section2_heading_title>h1 {
+    width: 620px;
+    height: 88px;
+}
+
+.section2_heading_button {
+    width: 174px;
+    height: 62px;
+
+    background: #FFFFFF;
+    border-radius: 7px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-left: 279px;
+}
+
+.section2_heading_button a {
+    text-decoration: none;
+
+    font-family: nunito;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 160%;
+
+    color: #292930;
+}
+
+.section2_services {
+    width: 100%;
+    height: 1017px;
+
+    display: block;
+
+    margin-top: 90px;
+}
+
+.section2_services_row1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.section2_services_row1 .box1 {
+    width: 352px;
+    height: 475px;
+
+    background: linear-gradient(180deg, #36363E 0%, #292930 100%);
+    border: 1px solid #424245;
+    border-radius: 30px;
+}
+
+.section2_services_row1 .box2 {
+    width: 352px;
+    height: 475px;
+
+    background: linear-gradient(180deg, #36363E 0%, #292930 100%);
+    border: 1px solid #424245;
+    border-radius: 30px;
+}
+
+.section2_services_row1 .box3 {
+    width: 352px;
+    height: 475px;
+
+    background: linear-gradient(180deg, #36363E 0%, #292930 100%);
+    border: 1px solid #424245;
+    border-radius: 30px;
+}
+
+.section2_services_row2 {
+    display: flex;
+    justify-content: space-between;
+
+    margin-top: 67px;
+}
+
+.section2_services_row2 .box1 {
+    width: 352px;
+    height: 475px;
+
+    background: linear-gradient(180deg, #36363E 0%, #292930 100%);
+    border: 1px solid #424245;
+    border-radius: 30px;
+}
+
+.section2_services_row2 .box2 {
+    width: 352px;
+    height: 475px;
+
+    background: linear-gradient(180deg, #36363E 0%, #292930 100%);
+    border: 1px solid #424245;
+    border-radius: 30px;
+}
+
+.section2_services_row2 .box3 {
+    width: 352px;
+    height: 475px;
+
+    background: linear-gradient(180deg, #36363E 0%, #292930 100%);
+    border: 1px solid #424245;
+    border-radius: 30px;
+}
